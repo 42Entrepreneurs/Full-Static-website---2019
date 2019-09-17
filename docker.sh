@@ -1,0 +1,1 @@
+docker run --name 42E -v $(pwd):/usr/share/nginx/html:ro -d nginx
