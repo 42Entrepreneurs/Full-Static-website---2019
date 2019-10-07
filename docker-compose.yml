@@ -6,7 +6,7 @@ services:
   image: nginx:latest
   container_name: website
   environment:
-    - VIRTUAL_HOST=www.42entrepreneurs.fr,42entrepreneurs.fr,www.42entrepreneurs.com,42entrepreneurs.com
+    - VIRTUAL_HOST=42entrepreneurs.com,www.42entrepreneurs.com,www.42entrepreneurs.fr,42entrepreneurs.fr
     - VIRTUAL_PORT=8080
     - LETSENCRYPT_HOST=www.42entrepreneurs.fr,42entrepreneurs.fr,www.42entrepreneurs.com,42entrepreneurs.com
     - LETSENCRYPT_EMAIL=contact@42entrepreneurs.com
